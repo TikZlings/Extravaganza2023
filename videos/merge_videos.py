@@ -32,7 +32,7 @@ for video in video_clips[0:2]:
 merged_video = CompositeVideoClip(video_fx_list)
 duration = merged_video.end
 
-audioclip = AudioFileClip("../intermissions/JingleBells.m4a").subclip(2,duration+2)
+audioclip = AudioFileClip("../intermissions/christmas-music-box-music.mp3").subclip(2,duration+2)
 merged_video = merged_video.set_audio(audioclip)
 
 ################################################################################
