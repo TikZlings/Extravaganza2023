@@ -4,10 +4,14 @@ This repository contains the souce code of the Great TikZlings Extravanganza 202
 
 The full video is available from ...
 
-## 1. Example
+## 1. Napoleon
 
-<img align="right" src="./samcarter/Example/Example.png" height="100">
+<img align="right" src="./samcarter/Napoleon/Napoleon.png" height="100">
 
-- Music: ...
+- Music: Sauron's March - Lord Of Mordor 0:50 - 1:10
+  https://www.youtube.com/watch?v=P3bQ7wL1f0o
+  
+- Background: Jamie - Fontainebleau Castle
+  https://commons.wikimedia.org/wiki/File:Fontainebleau_Castle_(2735351636).jpg
 
-- Source Code: [./samcarter/Example/](https://github.com/TikZlings/Extravaganza2022/tree/main/samcarter/Example)
+- Source Code: [./samcarter/Napoleon/](https://github.com/TikZlings/Extravaganza2023/tree/main/samcarter/Napoleon)

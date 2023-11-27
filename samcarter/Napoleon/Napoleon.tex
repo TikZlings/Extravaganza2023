@@ -1,0 +1,98 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usepackage{tikzlings}
+\usetikzlibrary{calc,decorations.markings}
+
+\setbeamertemplate{navigation symbols}{}
+
+% trick taken from https://topanswers.xyz/tex?q=1989
+\tikzset{
+    use page relative coordinates/.style={
+        shift={(current page.south west)},
+        x={(current page.south east)},
+        y={(current page.north west)}
+    },
+}
+
+\def\steps{100}
+
+
+\makeatletter
+\newcommand*{\slideinframe}{\number\beamer@slideinframe}
+\makeatother
+
+\begin{document}
+
+\begin{frame}
+  \begin{tikzpicture}[
+      remember picture,
+      overlay,
+      use page relative coordinates,
+    ]
+  
+    \node at (current page.center) {\includegraphics[width=\paperwidth]{Fontainebleau_Castle_(2735351636).jpg}};
+    
+    \node at (0.52,0.45) {\includegraphics[width=1cm]{Napoleon_both}};
+    
+    \node at (current page.center) {\includegraphics[width=\paperwidth]{Ballustrade}};
+
+    % credit for background image
+    \node[white,text width=\paperwidth,font=\footnotesize,align=center] at ([yshift=0.25cm]current page.south) {Image by Jamie (\url{https://commons.wikimedia.org/wiki/File:Fontainebleau_Castle_(2735351636).jpg})};  
+    
+  \end{tikzpicture}
+  \pause[15]
+\end{frame}
+	
+\begin{frame}<1-\steps>
+  \begin{tikzpicture}[
+      remember picture,
+      overlay,
+      use page relative coordinates,
+      decoration={
+        markings, 
+        mark=at position \slideinframe/\steps with {
+          \ifodd\slideinframe
+            \node{\includegraphics[width=\dimexpr1cm+1.5cm*\slideinframe/\steps]{Napoleon_left}};
+          \else
+            \node{\includegraphics[width=\dimexpr1cm+1.5cm*\slideinframe/\steps]{Napoleon_right}};
+          \fi
+        }
+      }
+    ]
+  
+    \node at (current page.center) {\includegraphics[width=\paperwidth]{Fontainebleau_Castle_(2735351636).jpg}};
+
+    % some movement
+    \path[postaction=decorate] (0.52,0.45) -- (0.4,0.45) -- (0.32,0.35) -- (0.34,0.32) -- (0.3,0.26) -- (0.6,0.17);
+
+    
+    \node at (current page.center) {\includegraphics[width=\paperwidth]{Ballustrade}};
+
+    % credit for background image
+    \node[white,text width=\paperwidth,font=\footnotesize,align=center] at ([yshift=0.25cm]current page.south) {Image by Jamie (\url{https://commons.wikimedia.org/wiki/File:Fontainebleau_Castle_(2735351636).jpg})};  
+    
+  \end{tikzpicture}
+  \pause[\steps]
+\end{frame}	
+
+\begin{frame}
+  \begin{tikzpicture}[
+      remember picture,
+      overlay,
+      use page relative coordinates,
+    ]
+  
+    \node at (current page.center) {\includegraphics[width=\paperwidth]{Fontainebleau_Castle_(2735351636).jpg}};
+    
+    \node at (0.6,0.17) {\includegraphics[width=2.5cm]{Napoleon_both}};
+    
+    \node at (current page.center) {\includegraphics[width=\paperwidth]{Ballustrade}};
+
+    % credit for background image
+    \node[white,text width=\paperwidth,font=\footnotesize,align=center] at ([yshift=0.25cm]current page.south) {Image by Jamie (\url{https://commons.wikimedia.org/wiki/File:Fontainebleau_Castle_(2735351636).jpg})};  
+    
+  \end{tikzpicture}
+  \pause[15]
+\end{frame}
+	
+\end{document}

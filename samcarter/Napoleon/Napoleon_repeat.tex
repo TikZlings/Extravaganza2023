@@ -1,0 +1,13 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usepackage{tikz}
+\usepackage{pdfpages}
+\setbeamertemplate{navigation symbols}{}
+
+\begin{document}
+\foreach \x in {1,...,130}{
+\foreach \y in {1,...,6}{
+  \includepdf[pages=\x]{Napoleon}  
+}  
+}
+\end{document}
