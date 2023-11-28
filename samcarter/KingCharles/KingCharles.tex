@@ -1,0 +1,43 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usepackage{tikzlings}
+
+\setbeamertemplate{navigation symbols}{}
+
+% trick taken from https://topanswers.xyz/tex?q=1989
+\tikzset{
+    use page relative coordinates/.style={
+        shift={(current page.south west)},
+        x={(current page.south east)},
+        y={(current page.north west)}
+    },
+}
+
+\makeatletter
+\newcommand*{\slideinframe}{\number\beamer@slideinframe}
+\makeatother
+
+\begin{document}
+
+\def\steps{700}
+\begin{frame}
+  \begin{tikzpicture}[
+      remember picture,
+      overlay,
+      use page relative coordinates,
+    ]
+  
+    \node at (current page.center) {\includegraphics[height=\paperheight]{Parade}};
+    
+    \node at (-0.5+2*\slideinframe/\steps,0.25+0.2*\slideinframe/\steps) {\includegraphics[height=4cm]{Carriage}};
+    
+    \node at (current page.center) {\includegraphics[height=\paperheight]{Parade_fg}};
+
+    % credit for background image
+    \node[white,text width=\paperwidth,font=\footnotesize,align=center] at ([yshift=0.25cm]current page.south) {Image by Free Tours by Foot London (\url{https://www.youtube.com/watch?v=AMD2gO9_Sqo})};  
+    
+  \end{tikzpicture}
+  \pause[\steps]
+\end{frame}
+
+\end{document}
