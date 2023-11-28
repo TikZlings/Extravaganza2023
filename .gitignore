@@ -38,9 +38,10 @@ Thumbs.db
 # media files #
 ###############
 *.m4a
+*.mp4
 *.mp3
-
+*.xcf
 
 storage
-*.mp4
 music
+ideas_from_last_year/Jose Manuel Ballester
