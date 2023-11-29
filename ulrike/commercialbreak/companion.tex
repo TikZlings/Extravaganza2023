@@ -1,0 +1,91 @@
+% !Mode:: "TeX:UTF-8:Main"
+% !Mode:: "TeX:UTF-8:Main"
+% arara: pdflatex
+% arara: convert: {density: 96, otheroptions: -dispose previous -delay 20 -loop 1, format: gif}
+% xarara: showfile: {format: gif}
+
+\documentclass{article}
+\usepackage[utf8]{inputenc} %probably not needed ...
+\usepackage[T1]{fontenc}
+\usepackage[svgnames,x11names]{xcolor}
+\usepackage{geometry,eso-pic}
+\geometry{papersize={128mm,96mm}}
+\usepackage{hummingbird}
+
+\usepackage{tikzducks,bearwear,tikzlings}
+
+\pagestyle{empty}
+\tikzset{pizza/.pic={
+\begin{scope}[yscale=2]
+\path[use as bounding box](-0.5,-0.25) rectangle (.5,.25);
+%\draw(-0.5,-0.25) rectangle (0.5,.25);
+\fill[brown] (0,0) ellipse (0.4 and 0.2);
+        \fill[red!70!black] (0,0) ellipse (0.34 and 0.16);
+        \fill[white!85!yellow] (0.15,0.05) ellipse (0.065 and 0.04);
+        \fill[white!85!yellow] (-0.19,-0.030) ellipse (0.065 and 0.04);
+        \fill[white!85!yellow] (-0.05,0.08) ellipse (0.065 and 0.04);
+        \fill[white!85!yellow] (.02,-0.06) ellipse (0.065 and 0.04);
+        \fill[green!40!brown] (0.09,-0.06) ellipse (0.07 and 0.02);
+        \fill[green!40!brown,rotate=20] (0,-0.13) ellipse (0.07 and 0.02);
+        \fill[green!40!brown,rotate=50] (0.15,-0.2) ellipse (0.07 and 0.02);
+        \fill[green!40!brown,rotate=35] (-0.22,0.2) ellipse (0.07 and 0.02);
+        \fill[green!40!brown,rotate=-20] (-0.1,0.05) ellipse (0.07 and 0.02);
+        \fill[green!40!brown] (0,0) ellipse (0.03 and 0.06);
+\end{scope}}}
+\newlength\pizzashift
+\setlength\pizzashift{0.0125cm}
+\newlength\confettishift
+\setlength\confettishift{0.01\paperheight}
+\usetikzlibrary{patterns,decorations.pathmorphing}
+\AddToShipoutPictureBG{%
+ \AtPageLowerLeft{%
+ \begin{tikzpicture}[overlay,remember picture]
+ \fill[LightSkyBlue] (0,0) rectangle (\paperwidth,\paperheight);
+ \pgfmathsetseed{9}
+ \end{tikzpicture}}}
+\begin{document}
+\foreach\x in {1,2,...,100} { \noindent\begin{tikzpicture}[remember picture] 
+\coordinate (bottom1) at (0.15\textwidth,-2cm); \coordinate (bottom2) at 
+(0.75\textwidth,-3cm); 
+
+\path[use as bounding box](0,0) rectangle (\textwidth,\textheight); 
+\coordinate (top) at (-2cm,\paperheight); 
+
+\begin{scope}[scale=6,transform shape]
+\path ([yshift=\dimexpr\x\pizzashift\relax]bottom1) node{\includegraphics[width=0.08\textwidth]{comp-1}};
+\path ([yshift=\dimexpr\x\pizzashift\relax]bottom2) node{\includegraphics[width=0.08\textwidth]{comp-2}};
+\end{scope}
+\node[anchor=south west,inner sep=0pt] at ([yshift=-\dimexpr\x\confettishift\relax]top) {\includegraphics{confetti}};
+
+\fill[overlay,DarkSeaGreen4,decorate, decoration={snake,segment length={10mm}}] ([xshift=-2cm,yshift=-2cm]current page.west) rectangle ([xshift=1cm,yshift=-2cm]current page.south east);
+
+\begin{scope}[xshift=0.5cm, yshift=2ex,xscale=-1]
+	\pig[
+signpost={\includegraphics[width=0.7cm]{comp-2}},
+signcolour= brown!50!black,
+signback=green!40!black
+]
+\end{scope}
+
+\begin{scope}[xshift=3.5cm, yshift=2ex,xscale=-1]
+	\pig[
+signpost={\includegraphics[width=0.7cm]{comp-1}},
+signcolour= brown!50!black,
+signback=green!40!black
+]
+%\path(0.7,1) pic[rotate=-20,scale=1.2] {pizza};
+\end{scope}
+
+\begin{scope}[xshift=4cm, yshift=2ex,]
+\end{scope}
+
+\begin{scope}[xshift=7cm, yshift=-1ex,scale=1.5]
+\bear \bearwear[ shirt=Beige!80!black, body deco= {\node at 
+([xshift=-2mm,yshift=-1mm]bearheart) 
+{\includegraphics[width=1cm]{latex-hummingbird}};}] 
+
+\end{scope}
+\end{tikzpicture}
+\newpage
+}
+\end{document} 
