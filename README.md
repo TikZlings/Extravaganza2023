@@ -21,8 +21,8 @@ The full video is available from ...
 
 <img align="right" src="./samcarter/KingCharles/KingCharles.png" height="100">
 
-- Music: God Save the King
-  https://www.youtube.com/watch?v=_BLGUNQAfyQ
+- Music: Land of Hope and Glory - BBC Proms 2014 5:00 - 5:22
+  https://www.youtube.com/watch?v=R2-43p3GVTQ
   
 - Background: Trooping the Colour 2023 - Free Tours by Foot London 
   https://www.youtube.com/watch?v=AMD2gO9_Sqo
