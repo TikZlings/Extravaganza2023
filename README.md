@@ -28,3 +28,11 @@ The full video is available from ...
   https://www.youtube.com/watch?v=AMD2gO9_Sqo
 
 - Source Code: [./samcarter/KingCharles/](https://github.com/TikZlings/Extravaganza2023/tree/main/samcarter/KingCharles)
+
+## 3. Commercial Break Companion
+
+<img align="right" src="./ulrike/commercialbreak/companion.png" height="100">
+
+- Music: 
+
+- Source Code: [./ulrike/commercialbreak/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/commercialbreak)
