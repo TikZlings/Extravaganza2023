@@ -9,29 +9,12 @@
 \usepackage[T1]{fontenc}
 \usepackage[svgnames,x11names]{xcolor}
 \usepackage{geometry,eso-pic}
-\geometry{papersize={128mm,96mm}}
-\usepackage{hummingbird}
+\geometry{papersize={160mm,90mm}}
+
 
 \usepackage{tikzducks,bearwear,tikzlings}
 
 \pagestyle{empty}
-\tikzset{pizza/.pic={
-\begin{scope}[yscale=2]
-\path[use as bounding box](-0.5,-0.25) rectangle (.5,.25);
-%\draw(-0.5,-0.25) rectangle (0.5,.25);
-\fill[brown] (0,0) ellipse (0.4 and 0.2);
-        \fill[red!70!black] (0,0) ellipse (0.34 and 0.16);
-        \fill[white!85!yellow] (0.15,0.05) ellipse (0.065 and 0.04);
-        \fill[white!85!yellow] (-0.19,-0.030) ellipse (0.065 and 0.04);
-        \fill[white!85!yellow] (-0.05,0.08) ellipse (0.065 and 0.04);
-        \fill[white!85!yellow] (.02,-0.06) ellipse (0.065 and 0.04);
-        \fill[green!40!brown] (0.09,-0.06) ellipse (0.07 and 0.02);
-        \fill[green!40!brown,rotate=20] (0,-0.13) ellipse (0.07 and 0.02);
-        \fill[green!40!brown,rotate=50] (0.15,-0.2) ellipse (0.07 and 0.02);
-        \fill[green!40!brown,rotate=35] (-0.22,0.2) ellipse (0.07 and 0.02);
-        \fill[green!40!brown,rotate=-20] (-0.1,0.05) ellipse (0.07 and 0.02);
-        \fill[green!40!brown] (0,0) ellipse (0.03 and 0.06);
-\end{scope}}}
 \newlength\pizzashift
 \setlength\pizzashift{0.0125cm}
 \newlength\confettishift
