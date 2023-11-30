@@ -17,7 +17,7 @@ convert2video(){
     pdftoppm -png -r 240 -progress extravaganza-intermission-$1.pdf $1
 
     # convert to video
-    ffmpeg -r 10 -ss 00:00:00 -i $1-%02d.png -ss 00:00:00 -i christmas-music-box-music.mp3 -shortest $1_raw.mp4
+    ffmpeg -r 10 -ss 00:00:00 -i $1-%02d.png -ss 00:00:00 -i christmas-music-box-music.m4a -shortest $1_raw.mp4
 
     # repair video
     HandBrakeCLI --crop 0:0:0:0 -i $1_raw.mp4 -o $1.mp4
@@ -53,7 +53,7 @@ repeatconvert(){
     pdftoppm -png -r 240 -progress extravaganza-intermission-$1.pdf $1
 
     # convert to video
-    ffmpeg -r 10 -ss 00:00:00 -i $1-%03d.png -ss 00:00:00 -i christmas-music-box-music.mp3 -shortest $1_raw.mp4
+    ffmpeg -r 10 -ss 00:00:00 -i $1-%03d.png -ss 00:00:00 -i christmas-music-box-music.m4a -shortest $1_raw.mp4
 
     # repair video
     HandBrakeCLI --crop 0:0:0:0 -i $1_raw.mp4 -o $1.mp4
@@ -75,6 +75,8 @@ repeatconvert(){
 # Converting
 
 repeatconvert title "./extravaganza-titlepage.pdf" 101
-convert2video example "Title of the Example Scene"
+convert2video KingCharles "King Charles III"
+convert2video commercialbreak "The \LaTeX\ Companion"
+convert2video Napoleon "Napoleon"
 repeatconvert credits "./extravaganza-credits.pdf" 150
 

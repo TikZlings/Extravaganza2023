@@ -12,8 +12,12 @@ padding = 1.5
 
 video_clips = [
   VideoFileClip("../intermissions/title.mp4"),
-  VideoFileClip("../intermissions/example.mp4"),
-  VideoFileClip("../example-scene/Example.mp4").volumex(1.1),
+  VideoFileClip("../intermissions/KingCharles.mp4"),
+  VideoFileClip("../samcarter/KingCharles/KingCharles.mp4").volumex(1.1),
+  VideoFileClip("../intermissions/commercialbreak.mp4"),
+  VideoFileClip("../ulrike/commercialbreak/companion.mp4").volumex(1.1),  
+  VideoFileClip("../intermissions/Napoleon.mp4"),
+  VideoFileClip("../samcarter/Napoleon/Napoleon.mp4").volumex(1.1),  
   VideoFileClip("../intermissions/credits.mp4"),
 ]
 
@@ -32,7 +36,7 @@ for video in video_clips[0:2]:
 merged_video = CompositeVideoClip(video_fx_list)
 duration = merged_video.end
 
-audioclip = AudioFileClip("../intermissions/christmas-music-box-music.mp3").subclip(2,duration+2)
+audioclip = AudioFileClip("../intermissions/christmas-music-box-music.m4a").subclip(2,duration+2)
 merged_video = merged_video.set_audio(audioclip)
 
 ################################################################################
