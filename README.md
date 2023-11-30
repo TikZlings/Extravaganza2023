@@ -33,6 +33,7 @@ The full video is available from ...
 
 <img align="right" src="./ulrike/commercialbreak/companion.png" height="100">
 
-- Music: 
+- Music: Richard Strauss Also sprach Zarathustra, Herbert von Karajan
+  https://www.youtube.com/watch?v=h3eEHZCahVU
 
 - Source Code: [./ulrike/commercialbreak/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/commercialbreak)
