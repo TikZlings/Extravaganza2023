@@ -33,7 +33,20 @@ The full video is available from ...
 
 <img align="right" src="./ulrike/commercialbreak/companion.png" height="100">
 
-- Music: Richard Strauss Also sprach Zarathustra, Herbert von Karajan
+- Music: Richard Strauss Also sprach Zarathustra, Herbert von Karajan 1:00 - 1:25 
   https://www.youtube.com/watch?v=h3eEHZCahVU
 
 - Source Code: [./ulrike/commercialbreak/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/commercialbreak)
+
+## 4. Prague
+
+<img align="right" src="./samcarter/Prague/Prague.png" height="100">
+
+- Music: The Moldau - Smetana (NATURE & CLASSICS) - Orchestral Classical Music You Must Hear 1:49 - 2:06
+  https://www.youtube.com/watch?v=bWcoNzKRnrw
+  
+- Background: Eric Spenle - Charles bridge and Prazsky Hrad
+  https://commons.wikimedia.org/wiki/File:Charles_bridge_and_Prazsky_Hrad_-_panoramio.jpg  
+
+- Source Code: [./samcarter/Prague/](https://github.com/TikZlings/Extravaganza2023/tree/main/samcarter/Prague)
+
