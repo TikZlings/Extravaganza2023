@@ -38,7 +38,7 @@ The full video is available from ...
 
 - Source Code: [./ulrike/commercialbreak/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/commercialbreak)
 
-## 4. Prague
+## 4. TUG'24 at Prague
 
 <img align="right" src="./samcarter/Prague/Prague.png" height="100">
 
@@ -49,4 +49,15 @@ The full video is available from ...
   https://commons.wikimedia.org/wiki/File:Charles_bridge_and_Prazsky_Hrad_-_panoramio.jpg  
 
 - Source Code: [./samcarter/Prague/](https://github.com/TikZlings/Extravaganza2023/tree/main/samcarter/Prague)
+
+## 5. Church of TeX
+
+<img align="right" src="./ulrike/churchoftex/churchoftex.png" height="100">
+
+- Music: O Come, All Ye Faithful (Adeste Fideles) at Westminster Abbey 0:23 - 0:43
+  https://www.youtube.com/watch?v=l1wHyMR_SCA
+  
+- Source Code: [./ulrike/churchoftex/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/churchoftex)
+
+
 
