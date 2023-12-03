@@ -49,11 +49,11 @@
     \node[white,text width=.7\paperwidth,font=\tiny,align=center] at ([yshift=0.35cm]current page.south) {Image source: \href{https://pixabay.com/de/photos/stollen-gang-unterirdisch-säntis-505977/}{https://pixabay.com/de/photos/stollen-gang-unterirdisch-säntis-505977/}};
   \end{tikzpicture}
   \begin{tikzpicture}[remember picture, overlay, xshift=6.3cm]
-    \pic[scale=.3+\thepage/15, xshift=-2cm, yshift=-3cm-.8\thepage cm, transform shape] {shovelmole};
-    \pic[scale=.3+\thepage/15, yshift=-3cm-.8\thepage cm, transform shape] {pickaxemole};
-    \pic[scale=.3+\thepage/15, xshift=2cm, yshift=-3cm-.8\thepage cm, transform shape] {shovelmole};
+    \pic[scale=.3+\thepage/150, xshift=-2cm, yshift=-3.72cm-.08\thepage cm, transform shape] {shovelmole};
+    \pic[scale=.3+\thepage/150, yshift=-3.72cm-.08\thepage cm, transform shape] {pickaxemole};
+    \pic[scale=.3+\thepage/150, xshift=2cm, yshift=-3.72cm-.08\thepage cm, transform shape] {shovelmole};
   \end{tikzpicture}
- \pause[11]
+ \pause[110]
  \setcounter{mypage}{\value{page}}
 \end{frame}	
  \begin{frame}
@@ -62,9 +62,9 @@
      \node[white,text width=.7\paperwidth,font=\tiny,align=center] at ([yshift=0.35cm]current page.south) {Image source: \href{https://pixabay.com/de/photos/stollen-gang-unterirdisch-säntis-505977/}{https://pixabay.com/de/photos/stollen-gang-unterirdisch-säntis-505977/}};    
    \end{tikzpicture}\stepcounter{mycounter}
    \begin{tikzpicture}[remember picture, overlay, xshift=6.3cm]
-     \pic[scale=.3+\themypage/15, xshift=-2cm,  yshift=-3cm-.8\themypage cm, transform shape] {shovelmole};
-     \pic[scale=.3+\themypage/15,  yshift=-3cm-.8\themypage cm, transform shape] {pickaxemole};
-     \pic[scale=.3+\themypage/15, xshift=2cm,  yshift=-3cm-.8\themypage cm, transform shape] {shovelmole};
+     \pic[scale=.3+\themypage/150, xshift=-2cm,  yshift=-3.72cm-.08\themypage cm, transform shape] {shovelmole};
+     \pic[scale=.3+\themypage/150,  yshift=-3.72cm-.08\themypage cm, transform shape] {pickaxemole};
+     \pic[scale=.3+\themypage/150, xshift=2cm,  yshift=-3.72cm-.08\themypage cm, transform shape] {shovelmole};
     \ifnumgreater{\themycounter}{0}{%
       \draw[fill=mycyan] (-2.2,-1.4) ellipse[x radius=.1cm,y radius=.05cm];
       \draw[fill=mycyan] (0,-1.4) ellipse[x radius=.1cm,y radius=.05cm];

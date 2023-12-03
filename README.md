@@ -59,5 +59,13 @@ The full video is available from ...
   
 - Source Code: [./ulrike/churchoftex/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/churchoftex)
 
+## 6. Believers
 
+<img align="right" src="./carlatex/Believers/Believers.png" height="100">
 
+- Music: ABBA I Have A Dream 0:32 - 0:50 - 1:00
+  https://www.youtube.com/watch?v=nrmhAvwBfig
+  
+- Background: https://pixabay.com/de/photos/stollen-gang-unterirdisch-säntis-505977/
+
+- Source Code: [./carlatex/Believers/](https://github.com/TikZlings/Extravaganza2023/tree/main/carlatex/Believers)
