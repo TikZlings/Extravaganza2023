@@ -69,3 +69,13 @@ The full video is available from ...
 - Background: https://pixabay.com/de/photos/stollen-gang-unterirdisch-säntis-505977/
 
 - Source Code: [./carlatex/Believers/](https://github.com/TikZlings/Extravaganza2023/tree/main/carlatex/Believers)
+
+## 7. Finale
+
+<img align="right" src="./ulrike/finale/finale.png" height="100">
+
+- Music: O Come, All Ye Faithful (Adeste Fideles) at Westminster Abbey 0:30 - 0:50
+  https://www.youtube.com/watch?v=7r3VVMUhAxU
+  
+- Source Code: [./ulrike/finale/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/finale)
+
