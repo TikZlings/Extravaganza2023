@@ -79,3 +79,13 @@ The full video is available from ...
   
 - Source Code: [./ulrike/finale/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/finale)
 
+## 8. Belafonte
+
+<img align="right" src="./ulrike/belafonte/belafonte.png" height="100">
+
+- Music: Harry Belafonte The Banana Boat Song 1956 0:52 - 1:15
+  https://www.youtube.com/watch?v=d-Bwc0wcIKA
+  
+- Background: https://pixabay.com/de/photos/banana-bunch-indische-bananen-banane-2192181/
+  
+- Source Code: [./ulrike/belafonte/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/belafonte)
