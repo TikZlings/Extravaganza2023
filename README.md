@@ -89,3 +89,15 @@ The full video is available from ...
 - Background: https://pixabay.com/de/photos/banana-bunch-indische-bananen-banane-2192181/
   
 - Source Code: [./ulrike/belafonte/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/belafonte)
+
+## 9. Titanic
+
+<img align="right" src="./samcarter/Titanic/Titanic.png" height="100">
+
+- Music: Titanic • My Heart Will Go On • Celine Dion 3:25 - 3.40
+  https://www.youtube.com/watch?v=F2RnxZnubCM
+  
+- Background: Vyacheslav Argenberg -- Shaheed Dweep, Neil Island, Andaman and Nicobar Islands, Indian Ocean.
+  https://commons.wikimedia.org/wiki/File:Andaman_Sea_at_night,_Moonset,_Moonlight.jpg
+
+- Source Code: [./samcarter/Titanic/](https://github.com/TikZlings/Extravaganza2023/tree/main/samcarter/Titanic)
