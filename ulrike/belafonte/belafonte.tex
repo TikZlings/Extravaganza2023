@@ -1,0 +1,80 @@
+% !Mode:: "TeX:DE:UTF-8:Main"
+
+\documentclass[aspectratio=169]{beamer}
+\usepackage{tikz}
+\usetikzlibrary{tikzlings}
+\usepackage{twemojis}
+
+\setbeamertemplate{navigation symbols}{}
+
+% trick taken from https://topanswers.xyz/tex?q=1989
+\tikzset{
+    use page relative coordinates/.style={
+        shift={(current page.south west)},
+        x={(current page.south east)},
+        y={(current page.north west)}
+    },
+   tugbear/.pic= {
+   \begin{scope}[scale=0.5]
+    \bear\bearwear[body deco={
+   \node[anchor=center] at (beartummy){\includegraphics[scale=0.3]{tug-logo-farbe-blau}
+   };
+     \node[text=white, font=\sffamily\bfseries] at (beartummy) {};}]
+     \end{scope}},
+}
+
+\makeatletter
+\newcommand*{\slideinframe}{\number\beamer@slideinframe}
+\makeatother
+
+     
+\begin{document}
+\ExplSyntaxOn
+\newcommand\rotatehead
+ {
+   \inteval
+     {\int_if_even:nTF{\value{page}}
+       {0}
+       {\int_mod:nn{\value{page}}{4}*30-60}
+     }
+ }    
+       
+\ExplSyntaxOff
+\def\steps{50}
+\begin{frame}
+  \begin{tikzpicture}[
+     %use page relative coordinates,     
+      remember picture,
+      overlay
+    ]
+      \node[anchor=south,inner sep=0pt] at (current page.south) 
+      {\includegraphics[width=1.3\paperwidth,trim=0cm 0cm 0cm 10cm]{banana-bunch-2192181_1280}}; 
+ 
+      \node[anchor=north,inner sep=0pt] at (current page.north) 
+      {\includegraphics[width=1.3\paperwidth,trim=0cm 0cm 0cm 12cm]{banana-bunch-2192181_1280}}; 
+ 
+      
+  \node[white,text width=\paperwidth,font=\tiny,align=center] at ([yshift=-0.25cm]current page.north) {https://pixabay.com/de/photos/banana-bunch-indische-bananen-banane-2192181};        
+   
+  \path ([xshift=1cm]current page.south west) 
+  --++(1,0)   pic[coati/rotatehead=\rotatehead] {coati} node{\raisebox{1.5cm}{\hspace{-1cm}\reflectbox{\twemoji[height=1cm,angle=25]{banana}}}}
+  --++(1.2,0) pic[coati/rotatehead=\rotatehead] {coati} node{\raisebox{1.5cm}{\hspace{-1cm}\reflectbox{\twemoji[height=1cm,angle=25]{banana}}}} 
+  --++(1.2,0) pic[coati/rotatehead=\rotatehead] {coati} node{\raisebox{1.5cm}{\hspace{-1cm}\reflectbox{\twemoji[height=1cm,angle=25]{banana}}}}  
+  --++(1.2,0) pic[coati/rotatehead=\rotatehead] {coati} node{\raisebox{1.5cm}{\hspace{-1cm}\reflectbox{\twemoji[height=1cm,angle=25]{banana}}}}  
+  --++(1.2,0) pic[coati/rotatehead=\rotatehead] {coati} node{\raisebox{1.5cm}{\hspace{-1cm}\reflectbox{\twemoji[height=1cm,angle=25]{banana}}}}  
+  --++(1.2,0) pic[coati/rotatehead=\rotatehead] {coati} node{\raisebox{1.5cm}{\hspace{-1cm}\reflectbox{\twemoji[height=1cm,angle=25]{banana}}}} 
+  --++(1.2,0) pic[coati/rotatehead=\rotatehead] {coati} node{\raisebox{1.5cm}{\hspace{-1cm}\reflectbox{\twemoji[height=1cm,angle=25]{banana}}}}  
+  --++(1.2,0) pic[coati/rotatehead=\rotatehead] {coati} node{\raisebox{1.5cm}{\hspace{-1cm}\reflectbox{\twemoji[height=1cm,angle=25]{banana}}}}  
+  --++(1.2,0) pic[coati/rotatehead=\rotatehead] {coati} node{\raisebox{1.5cm}{\hspace{-1cm}\reflectbox{\twemoji[height=1cm,angle=25]{banana}}}}  
+  --++(1.2,0) pic[coati/rotatehead=\rotatehead] {coati} node{\raisebox{1.5cm}{\hspace{-1cm}\reflectbox{\twemoji[height=1cm,angle=25]{banana}}}}  
+  --++(1.2,0) pic[coati/rotatehead=\rotatehead] {coati} node{\raisebox{1.5cm}{\hspace{-1cm}\reflectbox{\twemoji[height=1cm,angle=25]{banana}}}}
+  --++ (1,1)node[]{\includegraphics[width=1cm]{Harry_Belafonte}} ; 
+
+  \end{tikzpicture}  
+  \pause[\steps]
+ 
+ 
+     
+\end{frame}
+
+\end{document}
