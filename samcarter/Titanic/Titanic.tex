@@ -1,11 +1,11 @@
-\documentclass{beamer}
+\documentclass[aspectratio=169]{beamer}
 
 \usepackage{tikz}
 \usepackage{tikzducks,tikzlings}
 
 \setbeamertemplate{background canvas}{
   \begin{tikzpicture}[remember picture,overlay]
-    \node at (current page.center) {\includegraphics[height=\paperheight]{Andaman_Sea_at_night,_Moonset,_Moonlight}};
+    \node[anchor=south,inner sep=0pt] at (current page.south) {\includegraphics[width=\paperwidth]{Andaman_Sea_at_night,_Moonset,_Moonlight}};
     % credit for background image
     \node[white,text width=\paperwidth,font=\tiny,align=center] at ([yshift=0.25cm]current page.south) {Image by Vyacheslav Argenberg (\url{https://commons.wikimedia.org/wiki/File:Andaman_Sea_at_night,_Moonset,_Moonlight.jpg})};
   \end{tikzpicture}
@@ -28,7 +28,7 @@
 
 \begin{document}
 
-\def\steps{10}
+\def\steps{700}
 \begin{frame}
   \begin{tikzpicture}[
       remember picture,
@@ -37,9 +37,11 @@
     ]
 
     \begin{scope}
-      \clip (0.6,0.3) rectangle (1,1);
-      \node[anchor=south] at (0.8,0.2-0.3*\slideinframe/\steps) {\includegraphics[width=1.5cm]{ship}};
+      \clip (0.6,0.35) rectangle (1,1);
+      \node[anchor=south] at (0.8,0.25-0.3*\slideinframe/\steps) {\includegraphics[width=1.5cm]{ship}};
     \end{scope}
+    
+    \node[rotate=3*sin(\slideinframe/2)] at (0.4,0.3) {\includegraphics[width=7cm]{door}};
 
   \end{tikzpicture}
   \pause[\steps]
