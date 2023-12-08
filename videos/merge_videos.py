@@ -10,14 +10,32 @@ import os
 # duration of the transitions between the videos
 padding = 1.5
 
+# change volumn VideoFileClip("../samcarter/KingCharles/KingCharles.mp4").volumex(1.0),  
 video_clips = [
   VideoFileClip("../intermissions/title.mp4"),
+  # Christmas Rocks
   VideoFileClip("../intermissions/KingCharles.mp4"),
-  VideoFileClip("../samcarter/KingCharles/KingCharles.mp4").volumex(1.1),
-  VideoFileClip("../intermissions/commercialbreak.mp4"),
-  VideoFileClip("../ulrike/commercialbreak/companion.mp4").volumex(1.1),  
+  VideoFileClip("../samcarter/KingCharles/KingCharles.mp4"),  
   VideoFileClip("../intermissions/Napoleon.mp4"),
-  VideoFileClip("../samcarter/Napoleon/Napoleon.mp4").volumex(1.1),  
+  VideoFileClip("../samcarter/Napoleon/Napoleon.mp4"),    
+  VideoFileClip("../intermissions/churchoftex.mp4"),
+  VideoFileClip("../ulrike/churchoftex/churchoftex.mp4"),  
+  VideoFileClip("../intermissions/Prague.mp4"),
+  VideoFileClip("../samcarter/Prague/Prague.mp4"),    
+  VideoFileClip("../intermissions/belafonte.mp4"),
+  VideoFileClip("../ulrike/belafonte/belafonte.mp4"),  
+  # Silent Night
+  VideoFileClip("../intermissions/Titanic.mp4"),
+  VideoFileClip("../samcarter/Titanic/Titanic.mp4"),  
+  # IoT
+  VideoFileClip("../intermissions/commercialbreak.mp4"),
+  VideoFileClip("../ulrike/commercialbreak/companion.mp4"),  
+  VideoFileClip("../intermissions/Believers.mp4"),
+  VideoFileClip("../carlatex/Believers/Believers.mp4"),    
+  # Over the Rainbow
+  # Night at the Museum 
+  VideoFileClip("../intermissions/finale.mp4"),
+  VideoFileClip("../ulrike/finale/finale.mp4"),  
   VideoFileClip("../intermissions/credits.mp4"),
 ]
 
