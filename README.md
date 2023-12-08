@@ -4,20 +4,9 @@ This repository contains the souce code of the Great TikZlings Extravanganza 202
 
 The full video is available from ...
 
-## 1. Napoleon
+## 1. Christmas Rocks
 
-<img align="right" src="./samcarter/Napoleon/Napoleon.png" height="100">
-
-- Music: Sauron's March - Lord Of Mordor 0:50 - 1:10
-  https://www.youtube.com/watch?v=P3bQ7wL1f0o
-  
-- Background: Jamie - Fontainebleau Castle
-  https://commons.wikimedia.org/wiki/File:Fontainebleau_Castle_(2735351636).jpg
-
-- Source Code: [./samcarter/Napoleon/](https://github.com/TikZlings/Extravaganza2023/tree/main/samcarter/Napoleon)
-
-
-## 2. King Charles
+## 2. Coronation Street
 
 <img align="right" src="./samcarter/KingCharles/KingCharles.png" height="100">
 
@@ -29,16 +18,28 @@ The full video is available from ...
 
 - Source Code: [./samcarter/KingCharles/](https://github.com/TikZlings/Extravaganza2023/tree/main/samcarter/KingCharles)
 
-## 3. Commercial Break Companion
+## 3. L‘Empereur
 
-<img align="right" src="./ulrike/commercialbreak/companion.png" height="100">
+<img align="right" src="./samcarter/Napoleon/Napoleon.png" height="100">
 
-- Music: Richard Strauss Also sprach Zarathustra, Herbert von Karajan 1:00 - 1:25 
-  https://www.youtube.com/watch?v=h3eEHZCahVU
+- Music: Sauron's March - Lord Of Mordor 0:50 - 1:10
+  https://www.youtube.com/watch?v=P3bQ7wL1f0o
+  
+- Background: Jamie - Fontainebleau Castle
+  https://commons.wikimedia.org/wiki/File:Fontainebleau_Castle_(2735351636).jpg
 
-- Source Code: [./ulrike/commercialbreak/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/commercialbreak)
+- Source Code: [./samcarter/Napoleon/](https://github.com/TikZlings/Extravaganza2023/tree/main/samcarter/Napoleon)
 
-## 4. TUG'24 at Prague
+## 4. Church of TeX
+
+<img align="right" src="./ulrike/churchoftex/churchoftex.png" height="100">
+
+- Music: O Come, All Ye Faithful (Adeste Fideles) at Westminster Abbey 0:23 - 0:43
+  https://www.youtube.com/watch?v=l1wHyMR_SCA
+  
+- Source Code: [./ulrike/churchoftex/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/churchoftex)
+
+## 5. Commercial Break - TUG'24
 
 <img align="right" src="./samcarter/Prague/Prague.png" height="100">
 
@@ -50,36 +51,7 @@ The full video is available from ...
 
 - Source Code: [./samcarter/Prague/](https://github.com/TikZlings/Extravaganza2023/tree/main/samcarter/Prague)
 
-## 5. Church of TeX
-
-<img align="right" src="./ulrike/churchoftex/churchoftex.png" height="100">
-
-- Music: O Come, All Ye Faithful (Adeste Fideles) at Westminster Abbey 0:23 - 0:43
-  https://www.youtube.com/watch?v=l1wHyMR_SCA
-  
-- Source Code: [./ulrike/churchoftex/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/churchoftex)
-
-## 6. Believers
-
-<img align="right" src="./carlatex/Believers/Believers.png" height="100">
-
-- Music: ABBA I Have A Dream 0:32 - 0:50 - 1:00
-  https://www.youtube.com/watch?v=nrmhAvwBfig
-  
-- Background: https://pixabay.com/de/photos/stollen-gang-unterirdisch-säntis-505977/
-
-- Source Code: [./carlatex/Believers/](https://github.com/TikZlings/Extravaganza2023/tree/main/carlatex/Believers)
-
-## 7. Finale
-
-<img align="right" src="./ulrike/finale/finale.png" height="100">
-
-- Music: O Come, All Ye Faithful (Adeste Fideles) at Westminster Abbey 0:30 - 0:50
-  https://www.youtube.com/watch?v=7r3VVMUhAxU
-  
-- Source Code: [./ulrike/finale/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/finale)
-
-## 8. Belafonte
+## 6. Tribute to Harry Belafonte (1927-2023)
 
 <img align="right" src="./ulrike/belafonte/belafonte.png" height="100">
 
@@ -90,7 +62,18 @@ The full video is available from ...
   
 - Source Code: [./ulrike/belafonte/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/belafonte)
 
-## 9. Titanic
+## 7. Silent Night
+
+<img align="right" src="./ulrike/silentnight/silentnight.png" height="100">
+
+- Music: Margret Almer - Stille Nacht heilige Nacht Jodel Version 1997 0:18 - 0:35
+  https://www.youtube.com/watch?v=G5wpQbTU1Ck
+  
+- Background: https://pixabay.com/de/photos/schnee-winter-berge-haus-heimat-3373432/
+  
+- Source Code: [./ulrike/silentnight/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/silentnight)
+
+## 8. Titanic
 
 <img align="right" src="./samcarter/Titanic/Titanic.png" height="100">
 
@@ -102,13 +85,39 @@ The full video is available from ...
 
 - Source Code: [./samcarter/Titanic/](https://github.com/TikZlings/Extravaganza2023/tree/main/samcarter/Titanic)
 
-## 10. Silent Night
+## 9. Island of TeX
 
-<img align="right" src="./ulrike/silentnight/silentnight.png" height="100">
+## 10. Commercial Break - Companion
 
-- Music: Margret Almer - Stille Nacht heilige Nacht Jodel Version 1997 0:18 - 0:35
-  https://www.youtube.com/watch?v=G5wpQbTU1Ck
+<img align="right" src="./ulrike/commercialbreak/companion.png" height="100">
+
+- Music: Richard Strauss Also sprach Zarathustra, Herbert von Karajan 1:00 - 1:25 
+  https://www.youtube.com/watch?v=h3eEHZCahVU
+
+- Source Code: [./ulrike/commercialbreak/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/commercialbreak)
+
+## 11. Believers
+
+<img align="right" src="./carlatex/Believers/Believers.png" height="100">
+
+- Music: ABBA I Have A Dream 0:32 - 0:50 - 1:00
+  https://www.youtube.com/watch?v=nrmhAvwBfig
   
-- Background: https://pixabay.com/de/photos/schnee-winter-berge-haus-heimat-3373432/
+- Background: https://pixabay.com/de/photos/stollen-gang-unterirdisch-säntis-505977/
+
+- Source Code: [./carlatex/Believers/](https://github.com/TikZlings/Extravaganza2023/tree/main/carlatex/Believers)
+
+## 12. Over the Rainbow
+
+## 13. Night at the Museum
+
+## 7. Finale
+
+<img align="right" src="./ulrike/finale/finale.png" height="100">
+
+- Music: O Come, All Ye Faithful (Adeste Fideles) at Westminster Abbey 0:30 - 0:50
+  https://www.youtube.com/watch?v=7r3VVMUhAxU
   
-- Source Code: [./ulrike/silentnight/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/silentnight)
+- Source Code: [./ulrike/finale/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/finale)
+
+
