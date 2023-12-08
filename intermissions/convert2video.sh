@@ -73,10 +73,19 @@ repeatconvert(){
 }
 
 # Converting
-
-repeatconvert title "./extravaganza-titlepage.pdf" 101
-convert2video KingCharles "King Charles III"
-convert2video commercialbreak "The \LaTeX\ Companion"
-convert2video Napoleon "Napoleon"
+# repeatconvert title "./extravaganza-titlepage.pdf" 101
+convert2video xxx "Christmas Rocks"
+# convert2video KingCharles "Coronation Street"
+# convert2video Napoleon "L‘Empereur"
+# convert2video churchoftex "Church of TeX"
+# convert2video Prague "Commercial Break"
+# convert2video belafonte "Tribute to \mbox{Harry Belafonte} (1927-2023)"
+convert2video xxx "Silent Night"
+# convert2video Titanic "Titanic"
+# convert2video IoT "Island of TeX"
+# convert2video commercialbreak "Commercial Break"
+# convert2video Believers "Believers"
+convert2video xxx "Over the Rainbow"
+convert2video xxx "Night at the Museum"
+# convert2video finale "Grand Finale"
 repeatconvert credits "./extravaganza-credits.pdf" 150
-
