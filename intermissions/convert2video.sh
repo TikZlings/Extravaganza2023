@@ -88,4 +88,4 @@ convert2video xxx "Christmas Rocks"
 convert2video xxx "Over the Rainbow"
 convert2video xxx "Night at the Museum"
 # convert2video finale "Grand Finale"
-repeatconvert credits "./extravaganza-credits.pdf" 150
+# repeatconvert credits "./extravaganza-credits.pdf" 150
