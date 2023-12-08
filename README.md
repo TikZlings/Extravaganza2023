@@ -101,3 +101,14 @@ The full video is available from ...
   https://commons.wikimedia.org/wiki/File:Andaman_Sea_at_night,_Moonset,_Moonlight.jpg
 
 - Source Code: [./samcarter/Titanic/](https://github.com/TikZlings/Extravaganza2023/tree/main/samcarter/Titanic)
+
+## 10. Silent Night
+
+<img align="right" src="./ulrike/silentnight/silentnight.png" height="100">
+
+- Music: Margret Almer - Stille Nacht heilige Nacht Jodel Version 1997 0:18 - 0:35
+  https://www.youtube.com/watch?v=G5wpQbTU1Ck
+  
+- Background: https://pixabay.com/de/photos/schnee-winter-berge-haus-heimat-3373432/
+  
+- Source Code: [./ulrike/silentnight/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/silentnight)
