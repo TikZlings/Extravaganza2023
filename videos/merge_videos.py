@@ -28,7 +28,8 @@ video_clips = [
   VideoFileClip("../ulrike/silentnight/silentnight.mp4"),  
   VideoFileClip("../intermissions/Titanic.mp4"),
   VideoFileClip("../samcarter/Titanic/Titanic.mp4"),  
-  # IoT
+  VideoFileClip("../intermissions/IoT.mp4"),
+  VideoFileClip("../samcarter/IoT/IoT.mp4"),  
   VideoFileClip("../intermissions/commercialbreak.mp4"),
   VideoFileClip("../ulrike/commercialbreak/companion.mp4"),  
   VideoFileClip("../intermissions/Believers.mp4"),
