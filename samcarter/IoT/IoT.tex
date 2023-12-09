@@ -1,0 +1,43 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usepackage{tikzlings}
+
+\setbeamertemplate{navigation symbols}{}
+
+% trick taken from https://topanswers.xyz/tex?q=1989
+\tikzset{
+    use page relative coordinates/.style={
+        shift={(current page.south west)},
+        x={(current page.south east)},
+        y={(current page.north west)}
+    },
+}
+
+\makeatletter
+\newcommand*{\slideinframe}{\number\beamer@slideinframe}
+\makeatother
+
+\begin{document}
+
+\def\steps{700}
+\begin{frame}
+  \begin{tikzpicture}[
+      remember picture,
+      overlay,
+      use page relative coordinates,
+    ]
+  
+    \node at (current page.center) {\includegraphics[height=\paperheight]{IoT_modified}};
+    
+    \node[anchor=south,xscale=-1,rotate=-5*sin(\slideinframe*3)] at (0.32,0.16) {\includegraphics[width=1.6cm]{pirate-duck-UF}};
+    \node[anchor=south,rotate=5*sin(\slideinframe*3)] at (0.47,0.2) {\includegraphics[width=3.5cm]{CaptainHook}};           
+    \node[anchor=south,rotate=5*sin(\slideinframe*3)] at (0.58,0.24) {\includegraphics[width=1.5cm]{pirate-duck-UF}};    
+
+    % credit for background image
+    \node[white,text width=\paperwidth,font=\footnotesize,align=center] at ([yshift=0.25cm]current page.south) {Image modified, original image: Island of TeX (\url{islandoftex.gitlab.io}) \& Sofia Kockum (\url{kockumart.se})};  
+    
+  \end{tikzpicture}
+  \pause[\steps]
+\end{frame}
+
+\end{document}
