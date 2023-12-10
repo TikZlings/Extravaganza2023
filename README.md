@@ -87,6 +87,15 @@ The full video is available from ...
 
 ## 9. Island of TeX
 
+<img align="right" src="./samcarter/IoT/IoT.png" height="100">
+
+- Music: The Paragons - "The Tide Is High"  0:10 - 0:30
+  https://www.youtube.com/watch?v=SQXqkiKXiHc
+  
+- Background: modified, origionally by Island of TeX (islandoftex.gitlab.io) / Sofia Kockum (kockumart.se)
+
+- Source Code: [./samcarter/IoT/](https://github.com/TikZlings/Extravaganza2023/tree/main/samcarter/IoT)
+
 ## 10. Commercial Break - Companion
 
 <img align="right" src="./ulrike/commercialbreak/companion.png" height="100">
