@@ -120,6 +120,13 @@ The full video is available from ...
 
 ## 13. Night at the Museum
 
+<img align="right" src="./ulrike/museum/museum.png" height="100">
+
+- Music: The Pink Panther Theme 0:30 - 0:50
+  https://www.youtube.com/watch?v=0FMpmp7ERHw
+  
+- Source Code: [./ulrike/museum/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/museum)
+
 ## 7. Finale
 
 <img align="right" src="./ulrike/finale/finale.png" height="100">
