@@ -5,6 +5,7 @@
 \usetikzlibrary{tikzlings,shadings,decorations.markings}
 \usepackage{bearwear}
 \usetikzlibrary{decorations.text,fpu}
+\RequirePackage{l3opacity}
 
 \setbeamertemplate{navigation symbols}{}
 
@@ -76,6 +77,11 @@ with
 } 
 
 \definecolor{pink}{RGB}{255,20,147}
+\colorlet{bear}{brown}
+\colorlet{pig}{pigdark}
+\colorlet{anteater}{red!55!green!75!blue!66!white}
+\colorlet{panda}{white!90!black}
+\colorlet{hippo}{gray}
 \begin{document}
 \AddToHook{shipout/background} 
    {
@@ -85,18 +91,15 @@ with
     \put(10cm,-4cm){\includegraphics[trim=40cm 29cm 45cm 11cm,width=1cm,clip]{Scream}}
     \put(13cm,-4cm){\includegraphics[width=1.5cm]{VitruvianCoati}}
     \put(0,-\paperheight){\textcolor{brown!30!white}{\rule{\paperwidth}{4cm}}}
-   } 
+   }
+    
 \def\steps{350}
 \begin{frame}
 
 \vspace{2cm}
 
 \hspace*{2cm}%  
-\begin{tikzpicture}[
-     %use page relative coordinates,     
-  %    remember picture,
-  %    overlay
-    ]
+\begin{tikzpicture}
    
   \path (0,0)pic[fill=gray]{plinth} --++ (-0.3,0.1)pic[scale=0.8]{bear}--++(0,-0.2)pic{kette};
   \path (5,0)pic[fill=gray]{plinth} --++ (-0.3,0.1)pic[scale=0.8]{pig}--++(0,-0.1)pic{kette};
@@ -108,19 +111,57 @@ with
 %  \pause[\steps]
  
  
- \end{frame}
-
+\end{frame}
+\foreach\x in {0,10,...,100} 
+ {
+ 
+ \AddToHookNext{shipout/background} 
+   {
+     \put(0,-\paperheight){\tikz{\fill[opacity=\fpeval{0.005*\x},black](0,0)rectangle 
+     (\paperwidth,\paperheight);}}
+   }
 
 \begin{frame}
 
 \vspace{2cm}
 
 \hspace*{2cm}%  
-\begin{tikzpicture}[
-     %use page relative coordinates,     
-  %    remember picture,
-  %    overlay
-    ]
+\begin{tikzpicture}
+   
+  \path (0,0)pic[fill=gray]{plinth} 
+    --++ (-0.3,0.1)pic[bear/body=pink!\x!bear,scale=0.8]{bear}--++(0,-0.2)pic{kette};
+  \path (5,0)pic[fill=gray]{plinth} 
+    --++ (-0.3,0.1)pic[pig/body=pink!\x!pig,scale=0.8]{pig}--++(0,-0.1)pic{kette};
+  \path (9,0)pic[fill=gray]{plinth} 
+    --++ (-0.3,0.1)pic[anteater/body=pink!\x!anteater,scale=0.8]{anteater}--++(0,-0.1)pic{kette};
+  \path (3,1)pic[fill=gray,scale=0.8]{plinth} 
+    --++ (-0.3,0.1)pic[panda/body=pink!\x!panda,scale=0.6]{panda}--++(0,0)pic[scale=0.6]{kette};
+  \path (7,1)pic[fill=gray,scale=0.8]{plinth} 
+    --++ (-0.3,0.1)pic[hippo/body=pink!\x!hippo,scale=0.6]{hippo}--++(0,-0)pic[scale=0.7]{kette};
+   
+  \end{tikzpicture}  
+%  \pause[\steps]
+ \end{frame}
+ \newpage 
+} 
+
+\foreach\x in {0,1,...,10}
+ {
+  \AddToHookNext{shipout/background} 
+   {
+     \put(0,-\paperheight){\tikz{\fill[opacity=0.5,black](0,0)rectangle 
+     (\paperwidth,\paperheight);}}
+   }
+   \AddToHookNext{shipout/foreground} 
+   {
+     \put(0,-\paperheight){\tikz{\fill[opacity=\fpeval{0.08*\x},black](0,0)rectangle 
+     (\paperwidth,\paperheight);}}
+   }
+\begin{frame}
+\vspace{2cm}
+
+\hspace*{2cm}%  
+\begin{tikzpicture}
    
   \path (0,0)pic[fill=gray]{plinth} 
     --++ (-0.3,0.1)pic[bear/body=pink,scale=0.8]{bear}--++(0,-0.2)pic{kette};
@@ -138,5 +179,27 @@ with
  
  
  \end{frame}
+\newpage } 
+
+
+\begin{frame}
+
+\vspace{2cm}
+
+\hspace*{2cm}%  
+\begin{tikzpicture}
+   
+  \path (0,0)pic[fill=gray]{plinth} --++ (-0.3,0.1)pic[scale=0.8]{bear};
+  \path (5,0)pic[fill=gray]{plinth} --++ (-0.3,0.1)pic[scale=0.8]{pig};
+  \path (9,0)pic[fill=gray]{plinth} --++ (-0.3,0.1)pic[scale=0.8]{anteater};
+  \path (3,1)pic[fill=gray,scale=0.8]{plinth} --++ (-0.3,0.1)pic[scale=0.6]{panda};
+  \path (7,1)pic[fill=gray,scale=0.8]{plinth} --++ (-0.3,0.1)pic[scale=0.6]{hippo};
+   
+  \end{tikzpicture}  
+%  \pause[\steps]
+ 
+ 
+ \end{frame}
+
 
 \end{document}
