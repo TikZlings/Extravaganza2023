@@ -85,7 +85,7 @@ convert2video xxx "Christmas Rocks"
 # convert2video IoT "Island of TeX"
 # convert2video commercialbreak "Commercial Break"
 # convert2video Believers "Believers"
-convert2video xxx "The Realm of the Bluebat"
+# convert2video rainbow "The Realm of the Bluebat"
 # convert2video museum "Night at the Museum"
 # convert2video finale "Grand Finale"
 # repeatconvert credits "./extravaganza-credits.pdf" 150

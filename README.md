@@ -118,6 +118,15 @@ The full video is available from ...
 
 ## 12. The Realm of the Bluebat
 
+<img align="right" src="./ulrike/rainbow/rainbow.png" height="100">
+
+- Music: Eric Clapton - Over the Rainbow 3:48 - 4:08
+  https://www.youtube.com/watch?v=iwlFTYT2Fdw
+  
+- Background: https://pixabay.com/de/photos/landschaft-regenbogen-tropisch-7373484/
+  
+- Source Code: [./ulrike/rainbow/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/rainbow)
+
 ## 13. Night at the Museum
 
 <img align="right" src="./ulrike/museum/museum.png" height="100">

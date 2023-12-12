@@ -34,7 +34,8 @@ video_clips = [
   VideoFileClip("../ulrike/commercialbreak/companion.mp4"),  
   VideoFileClip("../intermissions/Believers.mp4"),
   VideoFileClip("../carlatex/Believers/Believers.mp4"),    
-  # Over the Rainbow
+  VideoFileClip("../intermissions/rainbow.mp4"),
+  VideoFileClip("../ulrike/rainbow/rainwbow.mp4"),  
   VideoFileClip("../intermissions/museum.mp4"),
   VideoFileClip("../ulrike/museum/museum.mp4"),  
   VideoFileClip("../intermissions/finale.mp4"),
