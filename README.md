@@ -73,7 +73,7 @@ The full video is available from ...
   
 - Source Code: [./ulrike/silentnight/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/silentnight)
 
-## 8. Titanic
+## 8. Saved!
 
 <img align="right" src="./samcarter/Titanic/Titanic.png" height="100">
 
@@ -116,7 +116,7 @@ The full video is available from ...
 
 - Source Code: [./carlatex/Believers/](https://github.com/TikZlings/Extravaganza2023/tree/main/carlatex/Believers)
 
-## 12. Over the Rainbow
+## 12. The Realm of the Bluebat
 
 ## 13. Night at the Museum
 
