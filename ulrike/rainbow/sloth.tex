@@ -1,0 +1,86 @@
+\documentclass[multi,tikz]{standalone}
+\usepackage{tikzlings}
+\ExplSyntaxOn
+\newcommand\slothhead
+ { 
+   \int_compare:nNnTF {\int_mod:nn {\xi}{7}}<{2}
+     {\includegraphics[width=1.6cm]{sloth_head} }
+     {\includegraphics[width=1.6cm]{sloth-mouth} }
+ }  
+\ExplSyntaxOff
+\definecolor{sloth}{RGB}{137,126,88}
+
+\begin{document}
+ \foreach \x [count=\xi] in 
+ {1,0.95,...,0}{%
+  \begin{tikzpicture} 
+   \path (-112mm,-34mm) rectangle (-70mm,5mm);
+	%Body of the sloth
+    \begin{scope}[xscale=-1]
+	\fill[sloth] 
+	(7.177, -0.504) .. controls ( 7.170, -1.471) and (7.144, -2.099) ..
+	(7.566, -2.687) .. controls ( 8.103, -3.436) and (9.188, -3.187) ..
+	(9.754, -2.806) .. controls (10.545, -2.330) and (9.871, -1.241) ..
+	(9.871, -1.241) .. controls ( 9.655, -1.440) and (9.853-\x*0.5, -0.542-\x) ..
+	(9.684-\x*0.7, -0.163-\x*0.5) .. controls ( 9.495-\x*0.7,  0.262-\x*0.5) and (9.227-\x*0.8, -0.049-\x*0.55) ..
+	(9.219-\x*0.7, -0.205-\x*0.55) .. controls ( 9.577-\x*0.36, -1.771) and (8.413, -2.548) ..
+	(8.395, -0.901) -- 
+	(8.069, -0.950) .. controls ( 8.073, -1.333) and (8.130, -1.661) ..
+	(8.031, -1.697) .. controls ( 7.539, -1.787) and (7.677, -0.756) .. 
+	(7.577, -0.386) .. controls ( 7.516, -0.162) and (7.182, -0.365) .. 
+	(7.177, -0.504) -- cycle;
+
+	% Head
+	\node    at(10.3, -1.7) 
+     {\slothhead };	
+	% front paw	
+	\fill[sloth!40!black,rotate around={10+\x*22:(9.6,-2.5)}] (9.84, 0.02-\x*0.33) ellipse (0.06 and 0.18);
+	\fill[sloth!40!black,rotate around={0+\x*22:(9.6,-2.5)}] (9.55+\x*0.05, 0.05-\x*0.35) ellipse (0.06 and 0.18);
+	\fill[sloth!40!black,rotate around={20+\x*22:(9.6,-2.5)}] (10.12-\x*0.05, -0.08-\x*0.3) ellipse (0.06 and 0.18);		
+
+% back paw
+\begin{scope}[rotate=10]
+\fill[sloth!40!black,rotate around={0:(7.21, -1.57)}] (7.21, -1.57) ellipse (0.06 and 0.18);
+\fill[sloth!40!black,rotate around={-15:(7.37, -1.6)}] (7.37, -1.6) ellipse (0.06 and 0.18);
+\fill[sloth!40!black,rotate around={10:(7.05, -1.6)}] (7.05, -1.6) ellipse (0.06 and 0.18);	
+\end{scope}
+\end{scope}
+\end{tikzpicture}}
+
+ \foreach \x [count=\xi] in 
+ {0,0.05,...,1}{%
+  \begin{tikzpicture}
+  \path (-112mm,-34mm) rectangle (-70mm,5mm);
+  \begin{scope}[xscale=-1] 
+	%Body of the sloth
+	\fill[sloth] 
+	(7.177, -0.504) .. controls ( 7.170, -1.471) and (7.144, -2.099) ..
+	(7.566, -2.687) .. controls ( 8.103, -3.436) and (9.188, -3.187) ..
+	(9.754, -2.806) .. controls (10.545, -2.330) and (9.871, -1.241) ..
+	(9.871, -1.241) .. controls ( 9.655, -1.440) and (9.853-\x*0.5, -0.542-\x) ..
+	(9.684-\x*0.7, -0.163-\x*0.5) .. controls ( 9.495-\x*0.7,  0.262-\x*0.5) and (9.227-\x*0.8, -0.049-\x*0.55) ..
+	(9.219-\x*0.7, -0.205-\x*0.55) .. controls ( 9.577-\x*0.36, -1.771) and (8.413, -2.548) ..
+	(8.395, -0.901) -- 
+	(8.069, -0.950) .. controls ( 8.073, -1.333) and (8.130, -1.661) ..
+	(8.031, -1.697) .. controls ( 7.539, -1.787) and (7.677, -0.756) .. 
+	(7.577, -0.386) .. controls ( 7.516, -0.162) and (7.182, -0.365) .. 
+	(7.177, -0.504) -- cycle;
+
+	% Head
+	\node    at(10.3, -1.7) 
+     {\slothhead };	
+	% front paw	
+	\fill[sloth!40!black,rotate around={10+\x*22:(9.6,-2.5)}] (9.84, 0.02-\x*0.33) ellipse (0.06 and 0.18);
+	\fill[sloth!40!black,rotate around={0+\x*22:(9.6,-2.5)}] (9.55+\x*0.05, 0.05-\x*0.35) ellipse (0.06 and 0.18);
+	\fill[sloth!40!black,rotate around={20+\x*22:(9.6,-2.5)}] (10.12-\x*0.05, -0.08-\x*0.3) ellipse (0.06 and 0.18);		
+
+% back paw
+\begin{scope}[rotate=10]
+\fill[sloth!40!black,rotate around={0:(7.21, -1.57)}] (7.21, -1.57) ellipse (0.06 and 0.18);
+\fill[sloth!40!black,rotate around={-15:(7.37, -1.6)}] (7.37, -1.6) ellipse (0.06 and 0.18);
+\fill[sloth!40!black,rotate around={10:(7.05, -1.6)}] (7.05, -1.6) ellipse (0.06 and 0.18);	
+\end{scope}
+\end{scope}
+\end{tikzpicture}}
+
+\end{document}
