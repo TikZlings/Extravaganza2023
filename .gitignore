@@ -32,6 +32,8 @@ Thumbs.db
 # derived files #
 #################
 *.pdf
+!*/*/include/*.pdf
+!*/*/include/*.svg
 *.gif
 
 # media files #
