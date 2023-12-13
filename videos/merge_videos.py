@@ -13,7 +13,8 @@ padding = 1.5
 # change volumn VideoFileClip("../samcarter/KingCharles/KingCharles.mp4").volumex(1.0),  
 video_clips = [
   VideoFileClip("../intermissions/title.mp4"),
-  # Christmas Rocks
+  VideoFileClip("../intermissions/Tree.mp4"),
+  VideoFileClip("../carlatex/Tree/Xmas_duck_tree.mp4"),  
   VideoFileClip("../intermissions/KingCharles.mp4"),
   VideoFileClip("../samcarter/KingCharles/KingCharles.mp4"),  
   VideoFileClip("../intermissions/Napoleon.mp4"),
@@ -35,7 +36,7 @@ video_clips = [
   VideoFileClip("../intermissions/Believers.mp4"),
   VideoFileClip("../carlatex/Believers/Believers.mp4"),    
   VideoFileClip("../intermissions/rainbow.mp4"),
-  VideoFileClip("../ulrike/rainbow/rainwbow.mp4"),  
+  VideoFileClip("../ulrike/rainbow/rainbow.mp4"),  
   VideoFileClip("../intermissions/museum.mp4"),
   VideoFileClip("../ulrike/museum/museum.mp4"),  
   VideoFileClip("../intermissions/finale.mp4"),

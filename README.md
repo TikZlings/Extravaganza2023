@@ -6,6 +6,13 @@ The full video is available from ...
 
 ## 1. Christmas Rocks
 
+<img align="right" src="./carlatex/Tree/Xmas_duck_tree.png" height="100">
+
+- Music: Rockin' Around The Christmas Tree
+  https://www.youtube.com/watch?v=O1x-hOOrl5E
+
+- Source Code: [./carlatex/Believers/](https://github.com/TikZlings/Extravaganza2023/tree/main/carlatex/Tree)
+
 ## 2. Coronation Street
 
 <img align="right" src="./samcarter/KingCharles/KingCharles.png" height="100">

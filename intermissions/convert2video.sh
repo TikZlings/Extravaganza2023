@@ -74,7 +74,7 @@ repeatconvert(){
 
 # Converting
 # repeatconvert title "./extravaganza-titlepage.pdf" 101
-convert2video xxx "Christmas Rocks"
+# convert2video Tree "Christmas Rocks"
 # convert2video KingCharles "Coronation Street"
 # convert2video Napoleon "L‘Empereur"
 # convert2video churchoftex "Church of TeX"
