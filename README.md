@@ -143,7 +143,7 @@ The full video is available from ...
   
 - Source Code: [./ulrike/museum/](https://github.com/TikZlings/Extravaganza2023/tree/main/ulrike/museum)
 
-## 7. Finale
+## 14. Finale
 
 <img align="right" src="./ulrike/finale/finale.png" height="100">
 
