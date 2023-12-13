@@ -99,7 +99,7 @@ The full video is available from ...
 - Music: The Paragons - "The Tide Is High"  0:10 - 0:30
   https://www.youtube.com/watch?v=SQXqkiKXiHc
   
-- Background: modified, origionally by Island of TeX [islandoftex.gitlab.io](https://islandoftex.gitlab.io/) / Sofia Kockum [kockumart.se](https://kockumart.se/)
+- Background: modified, origionally by Island of TeX ([islandoftex.gitlab.io](https://islandoftex.gitlab.io/)) / Sofia Kockum ([kockumart.se](https://kockumart.se/))
 
 - Source Code: [./samcarter/IoT/](https://github.com/TikZlings/Extravaganza2023/tree/main/samcarter/IoT)
 
