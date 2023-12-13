@@ -73,19 +73,19 @@ repeatconvert(){
 }
 
 # Converting
-# repeatconvert title "./extravaganza-titlepage.pdf" 101
-# convert2video Tree "Christmas Rocks"
-# convert2video KingCharles "Coronation Street"
-# convert2video Napoleon "L'Empereur"
-# convert2video churchoftex "Church of TeX"
-# convert2video Prague "Commercial Break"
-# convert2video belafonte "Tribute to \mbox{Harry Belafonte} (1927-2023)"
-# convert2video silentnight "Silent Night"
-# convert2video Titanic "Saved!"
-# convert2video IoT "Island of TeX"
-# convert2video commercialbreak "Commercial Break"
-# convert2video Believers "Believers"
-# convert2video rainbow "The Realm of the Bluebat"
-# convert2video museum "Night at the Museum"
-# convert2video finale "Grand Finale"
-# repeatconvert credits "./extravaganza-credits.pdf" 150
+repeatconvert title "./extravaganza-titlepage.pdf" 101
+convert2video Tree "Christmas Rocks"
+convert2video KingCharles "Coronation Street"
+convert2video Napoleon "L'Empereur"
+convert2video churchoftex "Church of TeX"
+convert2video Prague "Commercial Break"
+convert2video belafonte "Tribute to \mbox{Harry Belafonte} (1927--2023)"
+convert2video silentnight "Silent Night"
+convert2video Titanic "Saved!"
+convert2video IoT "Island of TeX"
+convert2video commercialbreak "Commercial Break"
+convert2video Believers "Believers"
+convert2video rainbow "The Realm of the Bluebat"
+convert2video museum "Night at the Museum"
+convert2video finale "Grand Finale"
+repeatconvert credits "./extravaganza-credits.pdf" 150
