@@ -76,7 +76,7 @@ repeatconvert(){
 # repeatconvert title "./extravaganza-titlepage.pdf" 101
 # convert2video Tree "Christmas Rocks"
 # convert2video KingCharles "Coronation Street"
-# convert2video Napoleon "L‘Empereur"
+# convert2video Napoleon "L'Empereur"
 # convert2video churchoftex "Church of TeX"
 # convert2video Prague "Commercial Break"
 # convert2video belafonte "Tribute to \mbox{Harry Belafonte} (1927-2023)"
