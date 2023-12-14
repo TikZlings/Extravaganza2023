@@ -2,7 +2,7 @@
 
 This repository contains the souce code of the Great TikZlings Extravanganza 2023, brought to you by [Ulrike](https://github.com/u-fischer) & [Gert Fischer](https://github.com/g-fischer), [Carla Maggi](https://github.com/CarLaTeX), [Paulo Cereda](https://github.com/cereda) and [samcarter](https://github.com/samcarter).
 
-The full video is available from ...
+The full video is available from https://vimeo.com/894435614
 
 ## 1. Christmas Rocks
 
